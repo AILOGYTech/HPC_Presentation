@@ -16,10 +16,10 @@ export default function Slide1() {
         {/* Logos */}
         <div className="mt-14 flex flex-col items-center gap-4">
           <p className="text-white/40 text-xs tracking-[0.3em] uppercase">Đơn vị trình bày</p>
-          <div className="flex items-center gap-6">
-            <img src="logo_ailogy.svg" alt="Ailogy Logo" className="h-12 md:h-14 w-auto object-contain brightness-0 invert" />
-            <div className="w-px h-10 bg-white/30"></div>
-            <img src="BK-Holding.png" alt="BK Holding Logo" className="h-12 md:h-14 w-auto object-contain brightness-0 invert" />
+          <div className="flex items-center gap-6 bg-white px-6 py-3 rounded-2xl shadow-lg">
+            <img src="logo_ailogy.svg" alt="Ailogy Logo" className="h-12 md:h-14 w-auto object-contain" />
+            <div className="w-px h-10 bg-gray-200"></div>
+            <img src="BK-Holding.png" alt="BK Holding Logo" className="h-12 md:h-14 w-auto object-contain" />
           </div>
         </div>
       </div>
