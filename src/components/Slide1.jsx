@@ -15,9 +15,9 @@ export default function Slide1() {
 
         {/* Logos */}
         <div className="flex items-center justify-center gap-8 mt-16 bg-white/100 backdrop-blur-sm px-8 py-4 mx-auto w-fit shadow-xl">
-          <img src="./logo_ailogy.svg" alt="Ailogy Logo" className="h-8 md:h-10 w-auto object-contain" />
+          <img src={`${import.meta.env.BASE_URL}logo_ailogy.svg`} alt="Ailogy Logo" className="h-8 md:h-10 w-auto object-contain" />
           <div className="w-px h-8 bg-gray-300"></div>
-          <img src="./BK-Holding.png" alt="BK Holding Logo" className="h-5 md:h-6 w-auto object-contain" />
+          <img src={`${import.meta.env.BASE_URL}BK-Holding.png`} alt="BK Holding Logo" className="h-5 md:h-6 w-auto object-contain" />
         </div>
       </div>
     </div>
