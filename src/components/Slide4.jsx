@@ -30,7 +30,7 @@ export default function Slide4() {
       layer: '4',
       title: 'Lớp Nền tảng Chia sẻ và Hệ sinh thái Quốc gia',
       icon: <Share2 size={24} />,
-      content: 'Xây dựng các nền tảng dữ liệu và AI dùng chung để phục vụ linh hoạt nhu cầu của các Bộ, ngành, địa phương và khối nghiên cứu. Lớp nền tảng này đóng vai trò phân bổ tài nguyên hiệu quả, kiến tạo và thúc đẩy hệ sinh thái AI quốc gia.',
+      content: 'Xây dựng các nền tảng dữ liệu và AI dùng chung để phục vụ linh hoạt nhu cầu của các Bộ, ngành, địa phương và khối nghiên cứu. Đóng vai trò phân bổ tài nguyên hiệu quả, kiến tạo và thúc đẩy hệ sinh thái AI quốc gia.',
       color: 'bg-blue-600',
       textColor: 'text-white/80'
     }
