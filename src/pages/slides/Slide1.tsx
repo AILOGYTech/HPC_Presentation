@@ -1,4 +1,4 @@
-import { Cpu } from 'lucide-react';
+
 
 export default function Slide1() {
   return (
