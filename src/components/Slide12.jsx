@@ -27,9 +27,9 @@ export default function Slide12() {
         </div>
         {/* Logos */}
         <div className="flex items-center justify-center gap-8 mt-12 bg-white/90 backdrop-blur-sm px-8 py-4 mx-auto w-fit shadow-xl hover:scale-105 transition-transform cursor-pointer">
-          <img src="/ailogy.png" alt="Ailogy Logo" className="h-8 md:h-10 w-auto object-contain" />
+          <img src="/logo_ailogy.svg" alt="Ailogy Logo" className="h-8 md:h-10 w-auto object-contain" />
           <div className="w-px h-8 bg-gray-300"></div>
-          <img src="/BK-Holding.png" alt="BK Holding Logo" className="h-6 md:h-8 w-auto object-contain" />
+          <img src="/BK-Holding.png" alt="BK Holding Logo" className="h-5 md:h-6 w-auto object-contain" />
         </div>
 
       </div>

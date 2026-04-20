@@ -6,7 +6,7 @@ export default function Slide10() {
       step: '01',
       icon: <Database size={24} />,
       title: 'Chọn bài toán & Đơn vị',
-      desc: 'Chọn Bộ Tài chính (Tổng cục Thuế) hoặc NHNN làm đơn vị phối hợp. Cung cấp dữ liệu lịch sử đã ẩn danh (Anonymized) tối thiểu 12 tháng.',
+      desc: 'Chọn Bộ Tài chính (Tổng cục Thuế) hoặc NHNN làm đơn vị phối hợp. Cung cấp dữ liệu lịch sử đã ẩn danh tối thiểu 12 tháng.',
       color: 'bg-blue-600',
       border: 'border-blue-200'
     },
@@ -22,7 +22,7 @@ export default function Slide10() {
       step: '03',
       icon: <CheckSquare size={24} />,
       title: 'Mô phỏng & Đánh giá',
-      desc: 'Huấn luyện AI phát hiện rủi ro (Fraud Detection). Đánh giá tỷ lệ chính xác (Accuracy rate). Nếu đạt kỳ vọng -> Trình Chính phủ triển khai diện rộng.',
+      desc: 'Huấn luyện AI phát hiện rủi ro. Đánh giá tỷ lệ chính xác.',
       color: 'bg-green-500',
       border: 'border-green-200'
     }

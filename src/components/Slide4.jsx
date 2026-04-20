@@ -6,23 +6,23 @@ export default function Slide4() {
       layer: '1',
       title: 'Lớp Hạ tầng Vật lý',
       icon: <Server size={24} />,
-      content: 'Sử dụng máy chủ có hiệu năng cao để huấn luyện mô hình AI; suy luận & Phân tích theo Chuẩn Tier III/IV và công nghệ tản nhiệt tối ưu để tiết kiệm chi phí sửa chữa và tính toán.',
+      content: 'Bao gồm hạ tầng máy chủ hiệu năng cao, lưu trữ phân tán và mạng tốc độ cao, đáp ứng Tier III/IV với công nghệ tản nhiệt tối ưu. Cung cấp năng lực cốt lõi để huấn luyện AI và xử lý đối soát tác vụ theo thời gian thực, tiết kiệm tối đa chi phí vận hành.',
       color: 'bg-blue-900',
       textColor: 'text-white'
     },
     {
       layer: '2',
-      title: 'Lớp Vận hành Thông minh',
+      title: 'Lớp Điều phối và Vận hành Thông minh',
       icon: <Activity size={24} />,
-      content: 'Tự động phân bổ tài nguyên theo ưu tiên, dự báo điểm nóng nhiệt độ, và phát hiện sớm nguy cơ hỏng hóc phần cứng.',
+      content: 'Ứng dụng AI để tự động hóa toàn diện quy trình vận hành: tối ưu phân bổ tài nguyên, dự báo nhu cầu và phát hiện sớm rủi ro kỹ thuật. Qua đó, giảm sự can thiệp thủ công, tối ưu tiêu thụ năng lượng và đảm bảo hệ thống thích ứng linh hoạt trước các biến động tải lớn.',
       color: 'bg-blue-800',
       textColor: 'text-white/90'
     },
     {
       layer: '3',
-      title: 'Lớp Tổ chức',
+      title: 'Lớp Tổ chức vận hành tập trung theo mô hình Trung tâm chuyên môn Xuất sắc (Center of Excellence - CoE)',
       icon: <Users size={24} />,
-      content: 'Xây dựng các đơn vị đầu mối chuyên môn, quản lý chất lượng, cập nhật công nghệ và ứng phó sự cố.',
+      content: 'Hình thành đầu mối điều hành tập trung với đội ngũ chuyên gia nòng cốt để xây dựng quy chuẩn, điều phối tài nguyên và quản lý chất lượng dịch vụ. Mô hình này đảm bảo tính thống nhất trong quản trị, liên tục tối ưu công nghệ và ngăn chặn triệt để nguy cơ đầu tư phân tán.',
       color: 'bg-blue-700',
       textColor: 'text-white/80'
     },
@@ -30,7 +30,7 @@ export default function Slide4() {
       layer: '4',
       title: 'Lớp Nền tảng Chia sẻ và Hệ sinh thái Quốc gia',
       icon: <Share2 size={24} />,
-      content: 'Phân bổ tài nguyên cho các tổ chức trong hệ sinh thái AI quốc gia.',
+      content: 'Xây dựng các nền tảng dữ liệu và AI dùng chung để phục vụ linh hoạt nhu cầu của các Bộ, ngành, địa phương và khối nghiên cứu. Lớp nền tảng này đóng vai trò phân bổ tài nguyên hiệu quả, kiến tạo và thúc đẩy hệ sinh thái AI quốc gia.',
       color: 'bg-blue-600',
       textColor: 'text-white/80'
     }
