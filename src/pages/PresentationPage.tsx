@@ -31,12 +31,17 @@ const slideIds: Record<number, string> = {
 
 export function PresentationPage() {
   return (
-    <div className="bg-[#f8fafc] text-dark font-sans min-h-screen">
-      <main className="flex flex-col gap-0">
+    <div className="bg-[#f8fafc] font-sans">
+      <main className="flex flex-col">
         {slides.map((SlideComponent, index) => {
           const id = slideIds[index];
+          const isSlide4 = index === 3;
           return (
-            <section key={index} id={id} className="w-full relative px-0 max-w-none">
+            <section
+              key={index}
+              id={id}
+              className={`w-full relative overflow-hidden ${isSlide4 ? '' : 'h-screen'}`}
+            >
               <SlideComponent />
             </section>
           );
